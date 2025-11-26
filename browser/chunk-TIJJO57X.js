@@ -1,0 +1,1 @@
+import{Ab as i,I as o,N as e}from"./chunk-6AZIHW54.js";var a=class t{http=e(i);apiUrl="http://localhost:3001/products";getProducts(){return this.http.get(this.apiUrl)}getProduct(r){return this.http.get(`${this.apiUrl}/${r}`)}static \u0275fac=function(c){return new(c||t)};static \u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"})};export{a};
