@@ -1,0 +1,23 @@
+<header class="shell">
+  <div class="brand">
+    <a routerLink="/" class="logo">Almari</a>
+    <span class="tag">SmartMall</span>
+  </div>
+
+  <nav class="nav">
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/cart" routerLinkActive="active">Cart</a>
+    <a routerLink="/checkout" routerLinkActive="active">Checkout</a>
+    <a routerLink="/admin" routerLinkActive="active">Admin</a>
+    <a routerLink="/login" routerLinkActive="active" *ngIf="!(isLoggedIn())">Login</a>
+    <button class="ghost" type="button" (click)="logout()" *ngIf="isLoggedIn()">Logout</button>
+  </nav>
+</header>
+
+<main class="page">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="shell footer">
+  <span>Mock API: http://localhost:3001/products</span>
+</footer>

@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+.login-shell {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.login {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.muted {
+  color: #4b5563;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+button {
+  background: linear-gradient(120deg, #3fd0ff, #7c5dff);
+  border: none;
+  padding: 12px 14px;
+  color: #0b1021;
+  font-weight: 800;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.error {
+  color: #d32f2f;
+  font-weight: 700;
+}

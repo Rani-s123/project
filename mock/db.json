@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AirMax Pro",
+      "description": "Premium wireless headphones with active noise canceling and plush comfort.",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1657223143933-33ceab36ecb9?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 25,
+      "category": "Wireless",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "CloudSound Elite",
+      "description": "Featherlight wireless headphones tuned for crisp highs and balanced bass.",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1695634463848-4db4e47703a4?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 30,
+      "category": "Wireless"
+    },
+    {
+      "id": 3,
+      "name": "GameMaster X",
+      "description": "Gaming headset with immersive spatial audio, flip-to-mute mic, and RGB trim.",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1660391532247-4a8ad1060817?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 28,
+      "category": "Gaming",
+      "isNew": true
+    },
+    {
+      "id": 4,
+      "name": "Studio Master",
+      "description": "Reference studio headphones with neutral response and wide soundstage.",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1718217028088-a23cb3b277c4?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 18,
+      "category": "Professional"
+    },
+    {
+      "id": 7,
+      "name": "Focus ANC",
+      "description": "Hybrid ANC headphones with ambient mode and low-latency streaming.",
+      "price": 229,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 26,
+      "category": "Noise Cancel",
+      "isNew": true
+    },
+    {
+      "id": 8,
+      "name": "Travel Lite",
+      "description": "Foldable portable headphones with soft-touch finish and balanced sound.",
+      "price": 129,
+      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 30,
+      "category": "Portable"
+    },
+    {
+      "id": 9,
+      "name": "Studio Reference",
+      "description": "Professional studio cans with detachable cable and ultra-clear detail.",
+      "price": 399,
+      "image": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 14,
+      "category": "Professional"
+    },
+    {
+      "id": 12,
+      "name": "AirLite Mini",
+      "description": "Ultra-light wireless headphones with a slim profile and clean mids.",
+      "price": 99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1080&q=80",
+      "inventory": 42,
+      "category": "Wireless"
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@shop.dev",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}
